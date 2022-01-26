@@ -11324,6 +11324,9 @@ a:hover {
   border-radius: 10px;
   transition: 0.6s all ease;
   text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
 }
 
 .primary-btn:hover {
@@ -11342,6 +11345,9 @@ a:hover {
   border-radius: 10px;
   transition: 0.6s all ease;
   text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
 }
 
 .secondary-btn:hover {

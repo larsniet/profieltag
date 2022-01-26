@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TagController;
+use App\Http\Controllers\PaymentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,7 @@ use App\Http\Controllers\TagController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/my-tag', [TagController::class, 'index'])->name('my-tag');
 Route::post('/my-tag/verify', [TagController::class, 'verify']);
+
+Route::get('/order', [PaymentController::class, 'index'])->name('order');
+
+Route::post('/checkout/create-session', [StripeController::class, 'create'])->name('create-checkout');
