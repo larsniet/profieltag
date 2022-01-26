@@ -11545,6 +11545,94 @@ a:hover {
   transition: 0.6s all ease;
 }
 
+.step {
+  color: #fff;
+  font-size: 28px;
+}
+
+.step-number {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  padding: 4px;
+  background: transparent;
+  border: 1px solid #ECF022;
+  font-size: 15px;
+  color: #ECF022;
+  text-align: center;
+}
+
+.step-title {
+  display: inline-block;
+}
+
+.textfield {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.textfield__label {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bebebe;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: text;
+}
+.textfield__label__required::after {
+  position: relative;
+  top: -3px;
+  left: 1px;
+  display: inline-block;
+  content: "*";
+  color: #d0011b;
+}
+.textfield__input {
+  display: block;
+  box-sizing: border-box;
+  height: 48px;
+  background: transparent;
+  font-weight: 400;
+  line-height: 24px;
+  outline: none;
+  border: 2px solid #bebebe;
+  border-radius: 10px;
+  padding: 13px 15px;
+  font-size: 14px;
+  color: #fff;
+  width: 100%;
+  transition: 0.6s all ease;
+}
+.textfield__input:focus {
+  border: 2px solid #ECF022;
+  outline: none;
+}
+.textfield__input:disabled {
+  border-color: #e6e6e6;
+  background: #f9fafb;
+}
+.textfield__input::-moz-placeholder {
+  color: transparent;
+}
+.textfield__input:-ms-input-placeholder {
+  color: transparent;
+}
+.textfield__input::placeholder {
+  color: transparent;
+}
+.textfield__input:focus + .textfield__label, .textfield__input:disabled + .textfield__label {
+  display: none;
+}
+
 .background {
   position: absolute;
   right: -45%;
