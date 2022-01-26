@@ -15,7 +15,7 @@ class TagFactory extends Factory
   public function definition()
   {
     return [
-      'code' => $this->faker->regexify('[A-Za-z0-9]{20}'),
+      'code' => $this->faker->regexify('[A-Z0-9]{6}'),
     ];
   }
 }
