@@ -5,7 +5,7 @@
                 <a href="/" class="footer-brand">profieltag</a>
                 <p class="contact">Deel je contactgegevens door alleen een kaart tegen een telefoon aan te houden.
                 </p>
-                <button class="bestelknop" type="button">Bestellen</button>
+                <button class="primary-btn" type="button">Bestellen</button>
             </div>
             <div class="col-md">
                 <p>Oplossingen</p>

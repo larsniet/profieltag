@@ -1,0 +1,31 @@
+.taginfo {
+  color: $font-logo-color;
+  font-size: 20px;
+  font-family: 'Bungee';
+}
+.taginput {
+  padding: 10px 40px;
+  color: $font-logo-color;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Bungee';
+  border: 3px solid $font-logo-color;
+  background: none;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+  width: auto;
+}
+.taginput:focus {
+  border: 3px solid $font-logo-color;
+  outline: none;
+}
+.bestelknop {
+  padding: 10px 40px;
+  color: $font-logo-color;
+  font-size: 16px;
+  font-family: 'Bungee';
+  border: 3px solid $font-logo-color;
+  background: transparent;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}

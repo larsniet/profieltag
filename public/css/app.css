@@ -11335,6 +11335,74 @@ header {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.taginfo {
+  color: #ECF022;
+  font-size: 20px;
+  font-family: "Bungee";
+}
+
+.taginput {
+  padding: 10px 40px;
+  color: #ECF022;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bungee";
+  border: 3px solid #ECF022;
+  background: none;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+  width: auto;
+}
+
+.taginput:focus {
+  border: 3px solid #ECF022;
+  outline: none;
+}
+
+.bestelknop {
+  padding: 10px 40px;
+  color: #ECF022;
+  font-size: 16px;
+  font-family: "Bungee";
+  border: 3px solid #ECF022;
+  background: transparent;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
+
+.primary-btn {
+  padding: 10px 40px;
+  color: #ECF022;
+  font-size: 16px;
+  font-family: "Bungee";
+  border: 3px solid #0D1A45;
+  background: #0D1A45;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
+
+.primary-btn:hover {
+  border: 3px solid #0D1A45;
+  color: #0D1A45;
+  background-color: transparent;
+}
+
+.secondary-btn {
+  padding: 10px 40px;
+  color: #0D1A45;
+  font-size: 16px;
+  font-family: "Bungee";
+  border: 3px solid #ECF022;
+  background: #ECF022;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
+
+.secondary-btn:hover {
+  color: #ECF022;
+  background-color: transparent;
+}
+
 .navbar-brand {
   font-family: "Bungee", sans-serif;
   color: #ECF022 !important;
@@ -11385,23 +11453,6 @@ header {
   transition: transform 0.4s ease-in-out;
 }
 
-.bestelknop {
-  padding: 10px 40px;
-  color: #ECF022;
-  font-size: 16px;
-  font-family: "Bungee";
-  border: 3px solid #0D1A45;
-  background: #0D1A45;
-  border-radius: 10px;
-  transition: 0.6s all ease;
-}
-
-.bestelknop:hover {
-  border: 3px solid #0D1A45;
-  color: #0D1A45;
-  background-color: transparent;
-}
-
 @media only screen and (max-width: 991px) {
   .header {
     background-color: #0D1A45;
@@ -11438,7 +11489,7 @@ header {
   margin-top: 25px;
 }
 
-.bestelknop {
+.primary-btn {
   margin: 25px 0;
 }
 

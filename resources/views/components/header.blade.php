@@ -12,7 +12,7 @@
                 <a href="#" class="nav-item nav-link">Hoe het werkt</a>
             </div>
             <div class="navbar-nav ms-auto d-none d-lg-block">
-                <button class="bestelknop" type="button">Bestellen</button>
+                <button class="primary-btn" type="button">Bestellen</button>
             </div>
         </nav>
     </div>

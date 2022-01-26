@@ -44,22 +44,6 @@
   transition: transform 0.4s ease-in-out;
 }
 
-.bestelknop {
-  padding: 10px 40px;
-  color: $font-logo-color;
-  font-size: 16px;
-  font-family: 'Bungee';
-  border: 3px solid $body-bg;
-  background: $body-bg;
-  border-radius: 10px;
-  transition: 0.6s all ease;
-}
-.bestelknop:hover {
-  border: 3px solid $body-bg;
-  color: $body-bg;
-  background-color: transparent;
-}
-
 @media only screen and (max-width: 991px) {
   .header {
     background-color: $body-bg;
