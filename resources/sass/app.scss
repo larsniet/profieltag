@@ -1,0 +1,101 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto|Bungee');
+
+// Variables
+@import 'variables';
+
+@import '~bootstrap/scss/bootstrap';
+
+// Basics
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: $body-bg;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+header, main {
+  position: relative;
+}
+
+main {
+  z-index: 1;
+}
+
+header {
+  z-index: 9999;
+}
+
+// Pages
+@import 'pages/home';
+
+// Components
+@import 'components/header';
+@import 'components/footer';
+
+.background { 
+	position: absolute;
+  right: -45%;
+  top: -5%;
+	overflow: hidden;
+  width: 100%;
+  height: 120vh;
+  z-index: 0;
+}
+.svg-wrapper{
+  position: relative;
+}
+.svg-wrapper svg {
+  position: absolute;
+  width: auto;
+  height: 120vh;
+}
+@media only screen and (max-width: 991px) {
+  .background {
+    display: none;
+  }
+}
+.mobilenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: $body-bg;
+  z-index: 1019;
+  transition: .6s all ease;
+}
+.mobilenav__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  list-style: none;
+}
+.mobilenav__list__item {
+  margin: 1rem;
+  transform: translateX(-150%);
+  transition: .6s all ease;
+}
+.mobilenav__list__item a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.mobilenav__list__item button {
+  padding: 10px 40px;
+  color: $font-logo-color;
+  font-size: 30px;
+  font-family: 'Bungee';
+  background: none;
+  border: 2px solid $font-logo-color;
+  border-radius: 10px;
+}

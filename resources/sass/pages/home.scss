@@ -1,0 +1,20 @@
+.home {
+  height: 80vh;
+  overflow: hidden;
+}
+.home__title {
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+}
+.home__title--yellow {
+  color: $font-logo-color;
+}
+.profielkaart {
+  width: 80%;
+  height: auto;
+  float: right;
+}
+.home__sub {
+  color: rgba(255, 255, 255, 0.7);
+}

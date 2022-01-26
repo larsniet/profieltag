@@ -1,0 +1,50 @@
+.footer {
+  position: relative;
+  background-color: #fff;
+  color: #646d7a;
+  font-size: 16px;
+  z-index: 1;
+}
+.footer-brand {
+  font-family: $font-logo;
+  color: $body-bg !important;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 25px 0;
+}
+.footer-bottom {
+  font-size: 13px;
+  border-top: 1px solid #a3a3a3;
+}
+
+.footer-bottom a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #646d7a;
+}
+
+.contact {
+  margin-top: 25px;
+}
+
+.bestelknop {
+  margin: 25px 0;
+}
+
+.footer-list-item {
+  margin: 25px 0;
+  font-size: 24px;
+  color: $body-bg;
+}
+.footer-list-item a {
+  color: $body-bg;
+  text-decoration: none;
+  transition: .6s all ease;
+  border-bottom: 2px solid transparent;
+}
+.footer-list-item a:hover {
+  border-bottom: 2px solid $body-bg;
+}
+.footer-list-item p {
+  margin: 0;
+}

@@ -1,0 +1,67 @@
+.navbar-brand {
+  font-family: $font-logo;
+  color: $font-logo-color !important;
+  font-size: 30px;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 2.6em;
+}
+
+.hamburger-lines {
+  position: absolute;
+  right: 10px;
+  height: 26px;
+  width: 32px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hamburger-lines:hover {
+  cursor: pointer;
+}
+
+.line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: $font-logo-color;
+}
+.line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+.line2 {
+  transition: transform 0.2s ease-in-out;
+}
+.line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.bestelknop {
+  padding: 10px 40px;
+  color: $font-logo-color;
+  font-size: 16px;
+  font-family: 'Bungee';
+  border: 3px solid $body-bg;
+  background: $body-bg;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
+.bestelknop:hover {
+  border: 3px solid $body-bg;
+  color: $body-bg;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 991px) {
+  .header {
+    background-color: $body-bg;
+  }
+}
