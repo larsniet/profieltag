@@ -10,7 +10,7 @@ class TagController extends Controller
 {
     public function index()
     {
-        return view('tag');
+        return view('inputtag');
     }
 
     public function verify(Request $request)
