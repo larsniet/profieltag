@@ -18,3 +18,4 @@ use App\Http\Controllers\TagController;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/my-tag', [TagController::class, 'index'])->name('my-tag');
+Route::post('/my-tag/verify', [TagController::class, 'verify']);
