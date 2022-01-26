@@ -31,7 +31,7 @@
         </div>
         <div class="row pt-4 footer-bottom">
             <div class="col-md">
-                Profielkaart <?php echo date('Y'); ?>. Alle rechten voorbehouden.
+                Profieltag <?php echo date('Y'); ?>. Alle rechten voorbehouden.
             </div>
             <div class="col-md text-center text-md-end">
                 <a href="#">Privacy & beleid</a>
