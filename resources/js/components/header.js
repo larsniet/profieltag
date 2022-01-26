@@ -36,7 +36,9 @@ const toggleMobileNav = () => {
   }
 }
 
-menuBtn.onclick = () => toggleMobileNav();
-mobileNavItems.forEach(navItem => {
-  navItem.onclick = () => toggleMobileNav();
-});
+if (menuBtn) {
+  menuBtn.onclick = () => toggleMobileNav();
+  mobileNavItems.forEach(navItem => {
+    navItem.onclick = () => toggleMobileNav();
+  });
+}
