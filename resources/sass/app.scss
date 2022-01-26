@@ -31,14 +31,18 @@ header {
   z-index: 9999;
 }
 
-// Pages
-@import 'pages/home';
-@import 'pages/tag';
+a:hover {
+  color: initial;
+}
 
 // Components
 @import 'components/buttons';
 @import 'components/header';
 @import 'components/footer';
+
+// Pages
+@import 'pages/home';
+@import 'pages/tag';
 
 .background { 
 	position: absolute;
@@ -80,6 +84,8 @@ header {
   text-align: center;
   width: 100%;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .mobilenav__list__item {
   margin: 1rem;
@@ -87,17 +93,11 @@ header {
   transition: .6s all ease;
 }
 .mobilenav__list__item a {
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-}
-.mobilenav__list__item button {
-  padding: 10px 40px;
-  color: $font-logo-color;
   font-size: 30px;
   font-family: 'Bungee';
-  background: none;
-  border: 2px solid $font-logo-color;
-  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.mobilenav__list__item .secondary-btn {
+  font-size: 30px;
 }

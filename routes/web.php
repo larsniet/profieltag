@@ -17,4 +17,4 @@ use App\Http\Controllers\TagController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
-Route::get('/my-tag', [TagController::class, 'index']);
+Route::get('/my-tag', [TagController::class, 'index'])->name('my-tag');

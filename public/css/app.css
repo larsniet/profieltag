@@ -11310,64 +11310,8 @@ header {
   z-index: 9999;
 }
 
-.home {
-  height: 80vh;
-  overflow: hidden;
-}
-
-.home__title {
-  color: #fff;
-  font-size: 70px;
-  font-weight: bold;
-}
-
-.home__title--yellow {
-  color: #ECF022;
-}
-
-.profielkaart {
-  width: 80%;
-  height: auto;
-  float: right;
-}
-
-.home__sub {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.taginfo {
-  color: #ECF022;
-  font-size: 20px;
-  font-family: "Bungee";
-}
-
-.taginput {
-  padding: 10px 40px;
-  color: #ECF022;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Bungee";
-  border: 3px solid #ECF022;
-  background: none;
-  border-radius: 10px;
-  transition: 0.6s all ease;
-  width: auto;
-}
-
-.taginput:focus {
-  border: 3px solid #ECF022;
-  outline: none;
-}
-
-.bestelknop {
-  padding: 10px 40px;
-  color: #ECF022;
-  font-size: 16px;
-  font-family: "Bungee";
-  border: 3px solid #ECF022;
-  background: transparent;
-  border-radius: 10px;
-  transition: 0.6s all ease;
+a:hover {
+  color: initial;
 }
 
 .primary-btn {
@@ -11379,6 +11323,7 @@ header {
   background: #0D1A45;
   border-radius: 10px;
   transition: 0.6s all ease;
+  text-decoration: none;
 }
 
 .primary-btn:hover {
@@ -11396,11 +11341,31 @@ header {
   background: #ECF022;
   border-radius: 10px;
   transition: 0.6s all ease;
+  text-decoration: none;
 }
 
 .secondary-btn:hover {
   color: #ECF022;
   background-color: transparent;
+}
+
+.tertiary-btn {
+  padding: 10px 40px;
+  color: #0D1A45;
+  font-size: 16px;
+  font-family: "Bungee";
+  border: 3px solid transparent;
+  background: #ECF022;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.tertiary-btn:hover {
+  border: 3px solid #0D1A45;
 }
 
 .navbar-brand {
@@ -11410,9 +11375,9 @@ header {
 }
 
 .nav-item {
-  color: #fff;
   font-size: 16px;
-  font-weight: bold;
+  font-family: "Bungee";
+  color: #fff;
   margin: 0 2.6em;
 }
 
@@ -11514,6 +11479,66 @@ header {
   margin: 0;
 }
 
+.home {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.home__title {
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.home__title--yellow {
+  color: #ECF022;
+}
+
+.profielkaart {
+  width: 80%;
+  height: auto;
+  float: right;
+}
+
+.home__sub {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.taginfo {
+  color: #ECF022;
+  font-size: 20px;
+  font-family: "Bungee";
+}
+
+.taginput {
+  padding: 10px 40px;
+  color: #ECF022;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bungee";
+  border: 3px solid #ECF022;
+  background: none;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+  width: auto;
+}
+
+.taginput:focus {
+  border: 3px solid #ECF022;
+  outline: none;
+}
+
+.bestelknop {
+  padding: 10px 40px;
+  color: #ECF022;
+  font-size: 16px;
+  font-family: "Bungee";
+  border: 3px solid #ECF022;
+  background: transparent;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
+
 .background {
   position: absolute;
   right: -45%;
@@ -11558,6 +11583,8 @@ header {
   text-align: center;
   width: 100%;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .mobilenav__list__item {
@@ -11567,18 +11594,12 @@ header {
 }
 
 .mobilenav__list__item a {
-  color: #fff;
   font-size: 30px;
-  font-weight: bold;
+  font-family: "Bungee";
+  color: #fff;
   text-decoration: none;
 }
 
-.mobilenav__list__item button {
-  padding: 10px 40px;
-  color: #ECF022;
+.mobilenav__list__item .secondary-btn {
   font-size: 30px;
-  font-family: "Bungee";
-  background: none;
-  border: 2px solid #ECF022;
-  border-radius: 10px;
 }

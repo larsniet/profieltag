@@ -45,7 +45,12 @@
         <ul class="mobilenav__list">
             <li class="mobilenav__list__item"><a href="#">Over</a></li>
             <li class="mobilenav__list__item"><a href="#">Hoe het werkt</a></li>
-            <li class="mobilenav__list__item"><button type="button">Bestellen</button></li>
+            <li class="mobilenav__list__item">
+                <a href="{{ route('my-tag') }}">My Tag</a>
+            </li>
+            <li class="mobilenav__list__item">
+                <button class="secondary-btn" type="button">Bestellen</button>
+            </li>
         </ul>
     </nav>
 

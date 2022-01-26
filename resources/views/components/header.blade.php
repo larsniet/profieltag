@@ -12,6 +12,7 @@
                 <a href="#" class="nav-item nav-link">Hoe het werkt</a>
             </div>
             <div class="navbar-nav ms-auto d-none d-lg-block">
+                <a href="{{ route('my-tag') }}" class="tertiary-btn">My Tag</a>
                 <button class="primary-btn" type="button">Bestellen</button>
             </div>
         </nav>
