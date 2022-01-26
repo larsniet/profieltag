@@ -16,6 +16,7 @@ class TagFactory extends Factory
   {
     return [
       'code' => $this->faker->regexify('[A-Z0-9]{6}'),
+      'link' => $this->faker->url(),
     ];
   }
 }

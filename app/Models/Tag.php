@@ -15,6 +15,7 @@ class Tag extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'code'
+        'code',
+        'link'
     ];
 }
