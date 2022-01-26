@@ -18,9 +18,9 @@ use App\Http\Controllers\PaymentController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
-Route::get('/my-tag', [TagController::class, 'index'])->name('my-tag');
-Route::post('/my-tag/verify', [TagController::class, 'verify']);
+Route::get('/mijn-tag', [TagController::class, 'index'])->name('my-tag');
+Route::post('/mijn-tag/verify', [TagController::class, 'verify']);
 
-Route::get('/order', [PaymentController::class, 'index'])->name('order');
+Route::get('/checkout', [PaymentController::class, 'index'])->name('checkout');
 
 Route::post('/checkout/create-session', [StripeController::class, 'create'])->name('create-checkout');

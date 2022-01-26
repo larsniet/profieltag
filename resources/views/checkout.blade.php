@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    Bestelling
+    Checkout
 @endsection
 
 @section('content')

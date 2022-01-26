@@ -9,7 +9,7 @@ class PaymentController extends Controller
 {
     public function index()
     {
-        return view('order');
+        return view('checkout');
     }
     public function createStripeSession(Request $request)
     {
