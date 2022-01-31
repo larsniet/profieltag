@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <form method="POST" action="/my-tag/verify">
+    <form method="POST" action="/tag">
         @csrf
         <div class="container">
             <div class="row vh-100">

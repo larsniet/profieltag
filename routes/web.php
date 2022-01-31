@@ -18,7 +18,9 @@ use App\Http\Controllers\PaymentController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+
 Route::get('/mijn-tag', [TagController::class, 'index'])->name('my-tag');
-Route::get('/tag/{code}', [TagController::class, 'tagCheck']);
+
+Route::get('/tag/{code}', [TagController::class, 'redirectToLink']);
 
 Route::get('/checkout', [PaymentController::class, 'createStripeSession'])->name('checkout');
