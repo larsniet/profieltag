@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,5 +15,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         \App\Models\Tag::factory(50)->create();
+        DB::table('tags')->insert([
+            'code' => 'ABCDEF'
+        ]);
     }
 }

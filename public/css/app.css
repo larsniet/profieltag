@@ -11633,6 +11633,22 @@ a:hover {
   display: none;
 }
 
+.order {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 80%;
+  color: #0D1A45;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.order-product {
+  color: #bebebe;
+  font-size: 14px;
+}
+
 .background {
   position: absolute;
   right: -45%;

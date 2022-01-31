@@ -13,14 +13,15 @@ class TagController extends Controller
         return view('inputtag');
     }
 
-    public function verify(Request $request)
+
+    public function tagCheck(Request $request)
     {
         $validated = $request->validate([
             'code' => 'required|max:255',
         ]);
 
         $tag = Tag::where('code', $request->code)->first();
-        
+
         if ($tag) {
             return "yessir";
         } else {

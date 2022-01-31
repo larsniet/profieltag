@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Profieltag - @yield('title')</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,6 +20,7 @@
 </head>
 
 <body>
+    @include('sweetalert::alert')
     @include('components.header')
 
     <main class="container">

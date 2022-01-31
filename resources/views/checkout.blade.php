@@ -104,9 +104,26 @@
                 </div>
             </div>
         </div>
-        <div class="col-md">
-            <div class="order">
-                
+        <div class="col-md"></div>
+        <div class="col-md-5">
+            <div class="container order py-2">
+                <div>Controleer je bestelling</div>
+                <div class="order-product">
+                    <div class="row">
+                        <div class="col">Subtotaal</div>
+                        <div class="col text-end">€ 35,25</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Verzendkosten (Pakket - PostNL)
+                        </div>
+                        <div class="col text-end">€ 6,95</div>
+                    </div>
+                    <div class="row fw-bold">
+                        <div class="col">Totaal
+                        </div>
+                        <div class="col text-end">€ 6,95</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
