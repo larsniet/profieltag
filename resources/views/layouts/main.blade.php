@@ -52,8 +52,8 @@
                 <a href="{{ route('my-tag') }}">My Tag</a>
             </li>
             <li class="mobilenav__list__item">
-                <button class="secondary-btn" type="button">Bestellen</button>
-            </li>
+                <a class="tertiary-btn" href="{{ route('checkout') }}">Bestellen</a>
+            </li> 
         </ul>
     </nav>
 

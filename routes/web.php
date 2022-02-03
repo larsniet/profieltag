@@ -19,7 +19,8 @@ use App\Http\Controllers\PaymentController;
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/mijn-tag', [TagController::class, 'index'])->name('my-tag');
+// Route::get('/mijn-tag', [TagController::class, 'index'])->name('my-tag');
+Route::any('/mijn-tag', [TagController::class])->name('mijn-tag');
 
 Route::get('/tag/{code}', [TagController::class, 'redirectToLink']);
 

@@ -13,7 +13,7 @@
             </div>
             <div class="navbar-nav ms-auto d-none d-lg-block">
                 <a href="{{ route('my-tag') }}" class="tertiary-btn">My Tag</a>
-                <a href={{ route('checkout') }} class="primary-btn">Bestellen</a>
+                <a href="{{ route('checkout') }}" class="primary-btn">Bestellen</a>
             </div>
         </nav>
     </div>

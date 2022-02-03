@@ -9,9 +9,13 @@ use Alert;
 
 class TagController extends Controller
 {
-    public function index()
+    public function get()
     {
-        return view('inputtag');
+        return view('tag.inputtag');
+    }
+    public function editTag()
+    {
+        return view('tag.edittag');
     }
 
     public function tagCheck(Request $request)
