@@ -12,7 +12,7 @@
                 <a href="#" class="nav-item nav-link">Hoe het werkt</a>
             </div>
             <div class="navbar-nav ms-auto d-none d-lg-block">
-                <a href="{{ route('my-tag') }}" class="tertiary-btn">My Tag</a>
+                <a href="{{ route('mijn-tag') }}" class="tertiary-btn">Mijn Tag</a>
                 <a href="{{ route('checkout') }}" class="primary-btn">Bestellen</a>
             </div>
         </nav>
